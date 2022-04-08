@@ -1,0 +1,63 @@
+.about__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__intro {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.about__skills {
+  display: flex;
+  flex: 1;
+  border-radius: 30px;
+  border: 1.5px solid yellowgreen;
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 20px;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__skills > h3 {
+  color: yellowgreen;
+}
+
+.about__skillcardContent > h4 {
+  font-size: 1.3rem;
+}
+.about__skills .about__skillcards {
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5px;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.about__skillcard {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.about__skillcardImg {
+  margin-right: 10px;
+  max-width: 80px;
+  height: auto;
+}
+
+.about__skillcardContent {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  font-size: 1.8rem;
+}

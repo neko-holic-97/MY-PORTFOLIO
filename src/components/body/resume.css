@@ -1,0 +1,133 @@
+.resume__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume__containerInfo {
+  margin-bottom: 20px;
+  color: yellowgreen;
+}
+
+.resume__containerInfo > h3,
+h4 {
+  font-weight: normal;
+  color: yellowgreen;
+  font-size: 1.5rem;
+}
+
+.resume__containerInfo > h4 {
+  color: #d0d1d6;
+  font-size: 1.3rem;
+}
+
+.resume__containerInfo > span {
+  font-size: 1.2rem;
+}
+
+.resume__containerInfo > p {
+  font-size: 1.1rem;
+}
+
+.resume__containerSkill {
+  display: flex;
+  justify-content: space-between;
+  color: yellowgreen;
+  width: 100%;
+  height: 100%;
+}
+
+.resume__containerInfoRight {
+  flex: 1;
+}
+
+.resume__containerInfoRight > h3 {
+  font-size: 1.5rem;
+}
+.resume__containerInfoLeft {
+  flex: 1;
+  margin-right: 30px;
+}
+.resume__containerInfoLeft > h3 {
+  font-size: 1.5rem;
+}
+
+.skill {
+  list-style: none;
+  font-size: 12px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.skill li {
+  margin-bottom: 20px;
+  position: relative;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid yellowgreen;
+}
+
+.skill li h3 {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.bar {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.react-js {
+  width: 50%;
+  background-color: whitesmoke;
+}
+
+.html-css {
+  width: 90%;
+  background-color: whitesmoke;
+}
+
+.javascript {
+  width: 70%;
+  background-color: whitesmoke;
+}
+
+.figma {
+  width: 40%;
+  background-color: whitesmoke;
+}
+
+.material-ui {
+  width: 70%;
+  background-color: whitesmoke;
+}
+
+.firebase {
+  width: 40%;
+  background-color: whitesmoke;
+}
+
+.expressjs {
+  width: 40%;
+  background-color: whitesmoke;
+}
+.mongodb {
+  width: 40%;
+  background-color: whitesmoke;
+}
+
+.resume__containerSkill .resume__containerInfoLeft > h3 {
+  font-weight: normal;
+  color: yellowgreen;
+}
+
+.resume__containerSkill .resume__containerInfoRight > h3 {
+  font-weight: normal;
+  color: yellowgreen;
+}
