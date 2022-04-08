@@ -35,7 +35,7 @@
 }
 .sidebar__headerName {
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .sidebar__headerName > span {
@@ -44,7 +44,7 @@
 
 .sidebar__header > p {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 0.83em;
   font-style: italic;
   margin-top: 5px;
 }
@@ -71,7 +71,7 @@
 .sidebar__infoContainer > a {
   text-decoration: none;
   color: yellowgreen;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +83,7 @@
 
 .sidebar__infoIcon {
   color: yellowgreen !important;
-  font-size: 1.5rem !important;
+  font-size: 0.9rem !important;
   margin-right: 0.3rem;
 }
 
@@ -96,11 +96,11 @@
 }
 
 .sidebar__footer > button {
-  padding: 10px 23px;
+  padding: 7px 15px;
   border-radius: 30px;
   cursor: pointer;
   border: 1.5px solid yellowgreen;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   text-transform: lowercase;
   font-weight: 700;
   outline: none;

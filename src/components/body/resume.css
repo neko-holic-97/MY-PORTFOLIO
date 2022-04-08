@@ -14,20 +14,20 @@
 h4 {
   font-weight: normal;
   color: yellowgreen;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .resume__containerInfo > h4 {
   color: #d0d1d6;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .resume__containerInfo > span {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .resume__containerInfo > p {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .resume__containerSkill {
@@ -43,14 +43,14 @@ h4 {
 }
 
 .resume__containerInfoRight > h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .resume__containerInfoLeft {
   flex: 1;
   margin-right: 30px;
 }
 .resume__containerInfoLeft > h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .skill {
